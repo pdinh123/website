@@ -1,3 +1,4 @@
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -33,3 +34,4 @@ local
 
 # vercel
 .vercel
+>>>>>>> f5c4b3e (feat: init project)
