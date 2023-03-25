@@ -19,15 +19,7 @@ class TypographyPage extends StatelessWidget {
                     alignment: Alignment.center,
                     child: Container(
                       margin: marginBottom12,
-                      child: Text("Typography", style: headlineTextStyle),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.center,
-                    child: Container(
-                      margin: marginBottom24,
-                      child: Text("Text styles for pages and posts.",
-                          style: subtitleTextStyle),
+                      child: Text("Menus", style: headlineTextStyle),
                     ),
                   ),
                   divider,
@@ -38,55 +30,15 @@ class TypographyPage extends StatelessWidget {
                     alignment: Alignment.center,
                     child: Container(
                       margin: marginBottom12,
-                      child: Text("Basic Styles",
+                      child: Text("3/17/23 - Campari Night",
                           style: headlineSecondaryTextStyle),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.center,
-                    child: Container(
-                      margin: marginBottom24,
-                      child: Text("Simple to remember and use",
-                          style: subtitleTextStyle),
                     ),
                   ),
                   dividerSmall,
                   Container(
                     margin: marginBottom24,
                   ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: Container(
-                      margin: marginBottom24,
-                      child: Text("Headline", style: headlineTextStyle),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: Container(
-                      margin: marginBottom24,
-                      child: Text("Headline Secondary",
-                          style: headlineSecondaryTextStyle),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: Container(
-                      margin: marginBottom24,
-                      child: Text("Subtitle", style: subtitleTextStyle),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.centerLeft,
-                    child: Container(
-                      margin: marginBottom40,
-                      child: Text(
-                          "Body text is the default text style. Use this text style for website content and paragraphs. This text is chosen to be easy and comfortable to read. As the default text style for large blocks of text, particular attention is placed on the choice of font. Some fonts are more comfortable to read than others.",
-                          style: bodyTextStyle),
-                    ),
-                  ),
                   divider,
-                  const Footer(),
                 ],
               ),
             ),
