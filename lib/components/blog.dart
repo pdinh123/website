@@ -369,18 +369,11 @@ class MenuBar extends StatelessWidget {
                         ),
                       ),
                       TextButton(
-                        onPressed: () {},
-                        style: menuButtonStyle,
-                        child: const Text(
-                          "PORTFOLIO",
-                        ),
-                      ),
-                      TextButton(
                         onPressed: () =>
                             Navigator.pushNamed(context, Routes.style),
                         style: menuButtonStyle,
                         child: const Text(
-                          "STYLE",
+                          "MENUS",
                         ),
                       ),
                       TextButton(

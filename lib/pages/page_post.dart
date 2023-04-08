@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide MenuBar;
 import 'package:minimal/components/components.dart';
 
 class PostPage extends StatelessWidget {
