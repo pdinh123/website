@@ -34,10 +34,12 @@ const App = () => {
       <LazyShow>
         <>
           <Features />
+          <Canvas />
         </>
       </LazyShow>
       <LazyShow>
         <>
+          <Canvas />
           <About />
         </>
       </LazyShow>
