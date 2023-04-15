@@ -59,10 +59,10 @@ const Menu = () => {
                 </Link>
               ))}
               <a
-                href={callToAction.href}
+                href="https://forms.gle/kFgPNUupc29a4UKA6"
                 className={`font-medium text-primary hover:text-secondary`}
               >
-                {callToAction.text}
+                Join us!
               </a>
             </div>
           </nav>
