@@ -62,7 +62,7 @@ const Menu = () => {
                 href={callToAction.href}
                 className={`font-medium text-primary hover:text-secondary`}
               >
-                {callToAction.text}
+                Join us!
               </a>
             </div>
           </nav>
