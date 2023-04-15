@@ -7,6 +7,7 @@ import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
+import Product from '../components/Product';
 
 const App = () => {
   return (
@@ -23,6 +24,12 @@ const App = () => {
         <MainHeroImage />
       </div>
       <Canvas />
+      <LazyShow>
+        <>
+          <Product />
+          <Canvas />
+        </>
+      </LazyShow>
       <LazyShow>
         <>
           <About />
