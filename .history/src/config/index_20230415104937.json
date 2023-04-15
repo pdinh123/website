@@ -26,7 +26,7 @@
     "title": "Consistency is",
     "subtitle": "key",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happy_henry.jpg",
+    "img": "/assets/images/happyTeam.jpeg",
     "primaryAction": {
       "text": "Join us!",
       "href": "https://forms.gle/kFgPNUupc29a4UKA6"
@@ -143,7 +143,7 @@
     "socialMedia": {
       "github": "https://github.com/issaafalkattan",
       "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "",
+      "linkedin": ""
       "instagram": "https://www.instagram.com/pdinh_12/"
     }
   }
