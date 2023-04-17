@@ -1,4 +1,7 @@
 {
+  "menu": {
+    "description": "Look below for happy hour menus from the past and into the future"
+  },
   "company": {
     "name": "React landing page 2021",
     "logo": "/assets/images/logo.png"
