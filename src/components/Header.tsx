@@ -8,7 +8,7 @@ import config from '../config/index.json';
 
 const Menu = () => {
   const { navigation, company, callToAction } = config;
-  const { name: companyName, logo } = company;
+  const { name: logo } = company;
 
   return (
     <>
@@ -31,7 +31,6 @@ const Menu = () => {
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div className="flex items-center justify-between w-full md:w-auto">
                 <Link href="/#">
-                  <span className="sr-only">{companyName}</span>
                   <img alt="logo" className="h-16 w-auto sm:h-16" src={logo} />
                 </Link>
                 <div className="-mr-2 flex items-center md:hidden">

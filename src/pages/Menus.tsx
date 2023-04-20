@@ -24,7 +24,7 @@ const Menus = () => {
               <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
                 {menu.description}
               </p>
-              <LazyShow>
+              {/* <LazyShow>
                 <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                   <a
                     target="_blank"
@@ -33,7 +33,7 @@ const Menus = () => {
                     3/16/23
                   </a>
                 </p>
-              </LazyShow>
+              </LazyShow> */}
             </div>
           </div>
         </div>
