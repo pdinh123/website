@@ -18,12 +18,42 @@ const Menus = () => {
         <div className={`py-12 bg-background`} id="features">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:text-center">
-              <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                Menus
-              </p>
-              <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                {menu.description}
-              </p>
+              <div style={{ margin: '50px' }}>
+                <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                  Menus
+                </p>
+                <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                  {menu.description}
+                </p>
+              </div>
+              <div
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'space-between',
+                  minHeight: 'auto',
+                  gap: '50px',
+                }}
+              >
+                <a
+                  target="_blank"
+                  href="/assets/images/Drinks Menu (31623).pdf"
+                >
+                  3/16/23
+                </a>
+                <a
+                  target="_blank"
+                  href="/assets/images/Drinks Menu (31623).pdf"
+                >
+                  3/16/23
+                </a>
+                <a
+                  target="_blank"
+                  href="/assets/images/Drinks Menu (31623).pdf"
+                >
+                  3/16/23
+                </a>
+              </div>
               {/* <LazyShow>
                 <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                   <a
