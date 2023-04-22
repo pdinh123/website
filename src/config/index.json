@@ -6,19 +6,19 @@
   "menus": [
     {
       "name": "Martini Night - 3/16/23",
-      "href": "assets/images/Drinks Menu (31623).pdf"
+      "href": "/assets/images/Drinks Menu (31623).pdf"
     },
     {
       "name": "Tiki Night - 3/25/23",
-      "href": "assets/images/Tiki Night (32423) - Takashita's Cove-1.pdf"
+      "href": "/assets/images/Tiki Night (32423) - Takashita's Cove-1.pdf"
     },
     {
       "name": "Christian/Korean Singles Night - 4/8/23",
-      "href": "assets/images/Happy Hour - 4-8-23.pdf"
+      "href": "/assets/images/Happy Hour - 4-8-23.pdf"
     },
     {
       "name": "Vodka Night - 4/22/23",
-      "href": "assets/images/Vodka Night 4-22-23.pdf"
+      "href": "/assets/images/Vodka Night 4-22-23.pdf"
     }
   ],
 
