@@ -3,8 +3,9 @@ import React from 'react';
 import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import config from '../config/index.json';
+import styles from '../styles/Menus.module.css';
 
-const { menu } = config;
+const { menu, menus } = config;
 
 const Menus = () => {
   return (
@@ -35,24 +36,17 @@ const Menus = () => {
                   gap: '50px',
                 }}
               >
-                <a
-                  target="_blank"
-                  href="/assets/images/Drinks Menu (31623).pdf"
-                >
-                  3/16/23
-                </a>
-                <a
-                  target="_blank"
-                  href="/assets/images/Drinks Menu (31623).pdf"
-                >
-                  3/16/23
-                </a>
-                <a
-                  target="_blank"
-                  href="/assets/images/Drinks Menu (31623).pdf"
-                >
-                  3/16/23
-                </a>
+                {menus.map((item) => (
+                  <a
+                    target="_blank"
+                    key={item.name}
+                    href={item.href}
+                    rel="noreferrer"
+                    className={styles.anchor}
+                  >
+                    {item.name}
+                  </a>
+                ))}
               </div>
               {/* <LazyShow>
                 <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">

@@ -2,6 +2,26 @@
   "menu": {
     "description": "Look below for happy hour menus from the past and into the future"
   },
+
+  "menus": [
+    {
+      "name": "Martini - 3/16/23",
+      "href": "/assets/images/Drinks Menu (31623).pdf"
+    },
+    {
+      "name": "Tiki Night - 3/25/23",
+      "href": "/assets/images/Tiki Night (32423) - Takashita's Cove-1.pdf"
+    },
+    {
+      "name": "Christian/Korean Singles Night - 4/8/23",
+      "href": ""
+    },
+    {
+      "name": "Vodka Night - 4/22/23",
+      "href": ""
+    }
+  ],
+
   "company": {
     "name": "React landing page 2021",
     "logo": "/assets/images/logo.png"
