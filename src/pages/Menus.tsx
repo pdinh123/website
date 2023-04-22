@@ -6,7 +6,7 @@ import config from '../config/index.json';
 import styles from '../styles/Menus.module.css';
 
 const { menu, menus } = config;
-const prefix = 'website/';
+const prefix = 'website';
 
 const Menus = () => {
   return (
