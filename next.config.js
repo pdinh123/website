@@ -2,15 +2,7 @@
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
-// next.config.js
-const isProd = process.env.NODE_ENV === 'production';
 
-module.exports = {
-  assetPrefix: isProd ? 'website' : '',
-  images: {
-    unoptimized: true,
-  },
-};
 module.exports = withBundleAnalyzer({
   poweredByHeader: false,
   trailingSlash: true,
