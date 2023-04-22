@@ -96,4 +96,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        run: next build 
+        run: next build && next export && touch out/.nojekyll && touch out/CNAME && echo \"pdinh123.github.io/website" >> out/CNAME && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin main"
