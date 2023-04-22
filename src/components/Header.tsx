@@ -8,7 +8,7 @@ import config from '../config/index.json';
 
 const Menu = () => {
   const { navigation, company, callToAction } = config;
-  //
+
   return (
     <>
       <svg
