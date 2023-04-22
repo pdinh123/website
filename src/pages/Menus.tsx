@@ -6,7 +6,6 @@ import config from '../config/index.json';
 import styles from '../styles/Menus.module.css';
 
 const { menu, menus } = config;
-const prefix = 'website';
 
 const Menus = () => {
   return (
@@ -41,7 +40,7 @@ const Menus = () => {
                   <a
                     target="_blank"
                     key={item.name}
-                    href={prefix + item.href}
+                    href={item.href}
                     rel="noreferrer"
                     className={styles.anchor}
                   >
