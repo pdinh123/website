@@ -8,7 +8,6 @@ import config from '../config/index.json';
 
 const Menu = () => {
   const { navigation, company, callToAction } = config;
-  const { name: logo } = company;
 
   return (
     <>
@@ -31,7 +30,11 @@ const Menu = () => {
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div className="flex items-center justify-between w-full md:w-auto">
                 <Link href="/#">
-                  <img alt="logo" className="h-16 w-auto sm:h-16" src={logo} />
+                  <img
+                    alt="logo"
+                    className="h-16 w-auto sm:h-16"
+                    src={company.logo}
+                  />
                 </Link>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button
@@ -85,7 +88,7 @@ const Menu = () => {
             >
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
-                  <img className="h-8 w-auto" src={logo} alt="" />
+                  <img className="h-8 w-auto" src={company.logo} alt="" />
                 </div>
                 <div className="-mr-2">
                   <Popover.Button
