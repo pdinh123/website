@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     env: 
       NEXT_PUBLIC_BASE_PATH: /website
-      NEXT_ASSET_PATH: /website
+      NEXT_ASSET_PATH: https://pdinh123.github.io/website/
 
     steps:
       - name: Checkout
