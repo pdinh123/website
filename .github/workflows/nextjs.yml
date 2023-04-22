@@ -96,7 +96,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        runs: next build 
+        run: next build 
 && next export 
 && touch out/.nojekyll
 && touch out/CNAME
