@@ -6,7 +6,7 @@ import config from '../config/index.json';
 import styles from '../styles/Menus.module.css';
 
 const { menu, menus } = config;
-
+//
 const Menus = () => {
   return (
     <div className="max-w-7xl mx-auto">
